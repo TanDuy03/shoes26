@@ -23,17 +23,18 @@
                 </div>
                 <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new
                     customer, please proceed to the Billing & Shipping section.</p>
-                <form class="row contact_form" action="#" method="post" novalidate="novalidate">
+                  
+                <form class="row contact_form" action="index.php?act=login" method="post" novalidate="novalidate">
                     <div class="col-md-6 form-group p_star">
-                        <input type="text" class="form-control" id="name" name="name">
+                    <input type="text" class="form-control" id="name" name="user" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'" required>
                         <span class="placeholder" data-placeholder="Username or Email"></span>
                     </div>
                     <div class="col-md-6 form-group p_star">
-                        <input type="password" class="form-control" id="password" name="password">
+                    <input type="password" class="form-control" id="name" name="pass" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
                         <span class="placeholder" data-placeholder="Password"></span>
                     </div>
                     <div class="col-md-12 form-group">
-                        <button type="submit" value="submit" class="primary-btn">login</button>
+                        <input type="submit" value="submit" class="primary-btn" name="dangnhap" id="submit"></input>
                         <div class="creat_account">
                             <input type="checkbox" id="f-option" name="selector">
                             <label for="f-option">Remember me</label>
@@ -41,6 +42,7 @@
                         <a class="lost_pass" href="#">Lost your password?</a>
                     </div>
                 </form>
+           
             </div>
             <div class="cupon_area">
                 <div class="check_title">

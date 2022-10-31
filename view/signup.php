@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="login_box_img">
+					<div class="login_box_img" style="width:100%;">
 						<img class="img-fluid" src="img/login.jpg" alt="">
 						<div class="hover">
 							<h4>New to our website?</h4>

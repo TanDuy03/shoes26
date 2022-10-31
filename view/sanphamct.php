@@ -18,7 +18,7 @@
 
 <!--  -->
 <div class= "container-fluid">
-    <div class= "row"></div>
+    <div class= "row">
     <div class ="col-md-7">
         <h4 class="mb-3 text-center" style="margin-top:15px;">Chi tiết sản phẩm</h4>
         <h2 class="mb-3 text-center"><?php echo $sanpham[0]['name']?></h2><br>
@@ -49,9 +49,9 @@
             // });
             });
         </script>
-        <!-- <div class="form-group" id="binhluan">
+        <div class="form-group" id="binhluan">
             
-        </div> -->
+        </div>
         <!-- <div class="form-group d-flex justify-content-center">
             <input type="submit" value="Gửi" class="btn btn-default border-0" style="margin:0 0 15px 15px; width:120px; background: linear-gradient(131deg, rgba(255,117,0,1) 12%, rgba(255,184,0,1) 86%); color:#fff;">
         </div> -->
@@ -59,8 +59,8 @@
     <!-- <div class ="col-md-2 bg-primary">
         <p>col-md-2</p>
     </div> -->
-    <div class ="col" style="margin-top: 100px;" id="binhluan">
-        <input type="submit" value="Mua hàng" class="btn btn-default border-0" style="margin:0 0 15px 15px; width:120px; background: linear-gradient(131deg, rgba(255,117,0,1) 12%, rgba(255,184,0,1) 86%); color:#fff;">
+    <div class ="col" style="margin-top: 100px;">
+        <a href="index.php?act=checkout"><input type="submit" value="Mua hàng" class="btn btn-default border-0" style="margin:0 0 15px 15px; width:120px; background: linear-gradient(131deg, rgba(255,117,0,1) 12%, rgba(255,184,0,1) 86%); color:#fff;"></a>
     </div>
     </div>
 </div>
