@@ -47,18 +47,6 @@
                 }
                 break;
             case 'login':
-                // if(isset($_POST['dangnhap'])&&($_POST['dangnhap'])){
-                //     $user = $_POST['user'];
-                //     $pass = $_POST['pass'];
-                //     $checkuser=checkuser($user,$pass);
-                //     if(is_array($checkuser)){
-                //         $_SESSION['user'] =  $checkuser;
-                //         header('Location: index.php');
-                //     }else{
-                //         $thongbao="Tài khoản chưa đăng ký";
-                //     }
-                    
-                // }
                 if (isset($_POST['dangnhap']) && ($_POST['dangnhap'])){
                     # code...
                     $user = $_POST['user'];
@@ -82,7 +70,7 @@
                 if(isset($_POST['dangky'])&&($_POST['dangky'])){
                     $email = $_POST['email'];
                     $user = $_POST['user'];
-                    $pass = $_POST['pass'];
+                    $pass = md5($_POST['pass']);
                     $address = $_POST['address'];
                     $tel = $_POST['tel'];
                     insert_taikhoan($email,$user,$pass,$address,$tel);

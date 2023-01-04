@@ -1,0 +1,90 @@
+/* .row-header{
+    height: 60px;
+    background-color: blue;
+} */
+.row-header h1{
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+.row-menu{
+    height: 40px;
+    background: rgb(87, 85, 85);
+    margin-top: -17px;
+    margin-bottom: 30px;
+}
+.row-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.row-menu li{
+    list-style:  none;
+    float: left;
+    padding: 0 15px;
+    line-height: 40px;
+}
+.row-title h1{
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.row-title{
+    height: 30px;
+    background-color: #ccc;
+
+}
+.row-par{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.row-par .dsach{
+    margin-left: -20px;
+}
+.mb20 input[type='submit'],
+.mb20 input[type='button'],
+.mb20 input[type='reset']{
+    width: 145px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.mb20 input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.mb20{
+    margin-top: 20px;
+}
+/* .dsach table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.dsach table th:nth-child(1){
+    width: 10%;
+    background-color: #ccc;
+    padding: 20px;
+}
+.dsach table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.dsach table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+.dsach table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+}
+.dsach table td{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+.navbar{
+    background-color: brown;
+} */
